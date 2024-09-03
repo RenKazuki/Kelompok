@@ -1,0 +1,133 @@
+* {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: black; 
+}
+.FContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(41, 41, 41);
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.login img {
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 15px;
+    gap: 20px;
+}
+
+.navigation li {
+    font-size: 20px;
+}
+
+h3 {
+    color: white; 
+    text-align: center;
+}
+
+nav a:hover,
+nav a.active {
+    color: #b74b4b;
+    border-bottom: 3px solid #b74b4b;
+}
+
+.gambar {
+    display: flex;
+    overflow-x: auto; 
+    margin-right: 30px;
+    padding: 20px; 
+}
+
+.gambar::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.gambar::-webkit-scrollbar-thumb {
+    background-color: #b74b4b;
+    border-radius: 4px; 
+}
+
+.gambar .item {
+    min-width: 110px;
+    height: 200px;
+    margin-right: 10px;
+    background-color: black;
+    object-fit: cover; 
+}
+
+.typing {
+    font-size: 30px;
+    text-align: center; 
+}
+.footer {
+    background-color: rgb(41, 41, 41); 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%; 
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px;
+}
+.footer-links li {
+    display: inline; 
+
+}
+.footer-links a {
+    color: white;
+    text-decoration: none; 
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: #b74b4b;
+}
